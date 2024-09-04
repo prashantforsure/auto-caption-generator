@@ -12,6 +12,7 @@ export default function Home() {
             </span>
           </h1>
           <div className="flex justify-center pt-5">
+            <div></div>
           <Button className="">
             <span>
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-6">
@@ -22,6 +23,14 @@ export default function Home() {
             </Button>
           </div>
         
+        <div className="flex justify-around mt-12 ">
+          <div className="bg-stone-200 w-[240px] h-[480px] rounded-xl">
+
+          </div>
+          <div className="bg-stone-200 w-[240px] h-[480px] rounded-xl">
+
+          </div>
+        </div>
    </main>
   );
 }
